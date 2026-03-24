@@ -5,48 +5,54 @@ export function Team() {
     <section id="equipo" className="section team">
       <div className="container">
         <p className="section-label">Equipo</p>
-        <h2 className="section-title">Quién está detrás de cada shooting</h2>
+        <h2 className="section-title">Quién ejecuta tu producción de punta a punta</h2>
         <p className="section-lead">
-          Somos un equipo híbrido: producción foto tradicional + flujos con IA para
-          iterar más rápido sin bajar el listón creativo.
+          Fotografía profesional y flujos con IA: la misma dupla que cuida el set y
+          la imagen final que ves en tu tienda.
         </p>
-        <div className="team__grid" style={{ marginTop: 40 }}>
+        <div className="team__grid">
           <article className="team-card">
-            <div className="team-card__photo">
-              <Image
-                src="/images/pauline.jpg"
-                alt="Retrato de Pauline"
-                width={400}
-                height={500}
-                sizes="(min-width: 768px) 50vw, 100vw"
-                priority
-              />
+            <div className="team-card__photo-shell">
+              <div className="team-card__photo">
+                <Image
+                  src="/foto-pauline.png"
+                  alt="Retrato de Pauline Gigoux"
+                  width={1102}
+                  height={1274}
+                  sizes="(min-width: 768px) 200px, 70vw"
+                  priority
+                />
+              </div>
             </div>
-            <div>
-              <p className="team-card__role">Dirección creativa & producción</p>
-              <h3 className="team-card__name">Pauline</h3>
+            <div className="team-card__body">
+              <p className="team-card__role">Fotógrafa profesional</p>
+              <h3 className="team-card__name">Pauline Gigoux</h3>
               <p className="team-card__bio">
-                Dirección de arte y coordinación de set. Cuida narrativa visual,
-                continuidad entre campañas y la experiencia en PDP.
+                Fotógrafa profesional especializada en personas, producto y otras
+                líneas de imagen comercial. Más de 10 años de experiencia en
+                fotografía de estilo profesional.
               </p>
             </div>
           </article>
           <article className="team-card">
-            <div className="team-card__photo">
-              <Image
-                src="/images/felipe.jpg"
-                alt="Retrato de Felipe"
-                width={400}
-                height={500}
-                sizes="(min-width: 768px) 50vw, 100vw"
-              />
+            <div className="team-card__photo-shell">
+              <div className="team-card__photo">
+                <Image
+                  src="/foto-felipe.JPG"
+                  alt="Retrato de Felipe Reyes"
+                  width={320}
+                  height={427}
+                  sizes="(min-width: 768px) 200px, 70vw"
+                />
+              </div>
             </div>
-            <div>
-              <p className="team-card__role">Foto, post & automatización IA</p>
-              <h3 className="team-card__name">Felipe</h3>
+            <div className="team-card__body">
+              <p className="team-card__role">Experto en inteligencia artificial</p>
+              <h3 className="team-card__name">Felipe Reyes</h3>
               <p className="team-card__bio">
-                Captura, color y post. Implementa pipelines con IA para acelerar
-                edición, fondos y variantes manteniendo control de marca.
+                Experto en inteligencia artificial y profesor universitario en la
+                materia. Ha acompañado la implementación de IA en más de 200
+                empresas y ha formado a más de 3000 personas.
               </p>
             </div>
           </article>

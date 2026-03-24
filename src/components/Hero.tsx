@@ -8,12 +8,14 @@ export function Hero() {
             Fotografía textil · Post con IA · Delivery listo para tienda
           </div>
           <h1 className="hero__title">
-            Catálogos que venden, con <em>foto</em> e <em>IA</em>
+            Fotografía profesional +{" "}
+            <em>producciones con IA</em> de primer nivel
           </h1>
-          <p className="hero__desc">
-            Producción integral para marcas de moda y hogar: modelos, locaciones,
-            consistencia de marca y retoques asistidos por inteligencia artificial
-            para escalar tu e-commerce sin perder calidad.
+          <p className="hero__hook">
+            Avisanos cuando te llega tu colección: nos encargamos de todo lo demás
+            — foto profesional, edición e IA — hasta que tus producciones estén
+            montadas en tu e-commerce. Sin el dolor de cabeza de coordinar
+            fotógrafo, post y formatos por tu cuenta.
           </p>
           <div className="hero__actions">
             <a href="#contacto" className="btn btn--primary">

@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export function Footer() {
   return (
     <footer className="footer">
       <div className="container footer__inner">
         <div>
           <div className="footer__brand">
-            foto<span>×</span>ia
+            <Image src="/logo.png" alt="foto×ia" width={878} height={680} />
           </div>
           <p className="footer__meta" style={{ marginTop: 8 }}>
             Fotografía profesional + IA para catálogos textil.
