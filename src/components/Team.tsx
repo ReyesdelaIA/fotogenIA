@@ -15,10 +15,10 @@ export function Team() {
             <div className="team-card__photo-shell">
               <div className="team-card__photo">
                 <Image
-                  src="/foto-pauline.png"
+                  src="/foto-pauline.jpg"
                   alt="Retrato de Pauline Gigoux"
-                  width={1102}
-                  height={1274}
+                  width={2672}
+                  height={3556}
                   sizes="(min-width: 768px) 200px, 70vw"
                   priority
                 />
